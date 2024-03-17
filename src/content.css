@@ -1,0 +1,21 @@
+.container{
+    width:250px;
+    padding:10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.container img{
+    width:230px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+   
+}
+.electronics,.books,.beauty{
+    margin:20px auto;
+    padding:0px 20px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,16 @@
+a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(146, 146, 247);
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgb(255, 218, 163);
+  line-height: 30px;
+}
